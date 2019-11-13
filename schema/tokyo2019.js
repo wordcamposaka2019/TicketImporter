@@ -12,7 +12,9 @@ module.exports = function( response ) {
     changedate: response[6],
     status:     response[7],
     coupon:     response[9],
-    u20:        response[16], // 名前間違い。実際はover20
-    tshirtsize: response[18],
+    u20:        response[28], // 名前間違い。実際はover20
+    tshirtsize: response[13],
+    allergic:   response[36],
+    support:    response[37]
   };
 };
